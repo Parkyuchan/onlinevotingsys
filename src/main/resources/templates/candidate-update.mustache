@@ -12,12 +12,12 @@
                     <!--readonly: input 태그에 읽기 기능만 허용, id는 수정할 수 없도록 읽기만 허용 -->
                 </div>
                 <div class="form-group">
-                    <label for="department">학과</label>
-                    <input type="text" class="form-control" id="department" value="{{candidate.department}}">
+                    <label for="name_candidate1">학회장 이름</label>
+                    <input type="text" class="form-control" id="name_candidate1" value="{{candidate.name_candidate1}}" readonly>
                 </div>
                 <div class="form-group">
-                    <label for="name_candidate1">학회장 이름</label>
-                    <input type="text" class="form-control" id="name_candidate1" value="{{candidate.name_candidate1}}">
+                    <label for="department_candidate1">학회장 학과</label>
+                    <input type="text" class="form-control" id="department_candidate1" value="{{candidate.department_candidate1}}" readonly>
                 </div>
                 <div class="form-group">
                     <label for="id_candidate1">학회장 학번</label>
@@ -25,7 +25,11 @@
                 </div>
                 <div class="form-group">
                     <label for="name_candidate2">부학회장 이름</label>
-                    <input type="text" class="form-control" id="name_candidate2" value="{{candidate.name_candidate2}}">
+                    <input type="text" class="form-control" id="name_candidate2" value="{{candidate.name_candidate2}}" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="department_candidate2">부학회장 학과</label>
+                    <input type="text" class="form-control" id="department_candidate2" value="{{candidate.department_candidate2}}" readonly>
                 </div>
                 <div class="form-group">
                     <label for="id_candidate2">부학회장 학번</label>

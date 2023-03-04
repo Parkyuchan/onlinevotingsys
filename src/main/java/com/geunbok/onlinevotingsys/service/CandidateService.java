@@ -28,7 +28,7 @@ public class CandidateService {
         Candidate candidate = candidateRepository.findById(id).orElseThrow(() ->
                 new IllegalArgumentException("해당 후보자가 없습니다. id = " + id));
 
-        candidate.update(requestDto.getDepartment(), requestDto.getName_candidate1(), requestDto.getName_candidate2(),
+        candidate.update(requestDto.getDepartment_candidate1(), requestDto.getName_candidate1(), requestDto.getName_candidate2(),
                 requestDto.getGongyak());
 
         return id;

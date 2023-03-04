@@ -16,9 +16,10 @@ var main = {
     },
     save : function () {
         var data = {
-            department: $('#department').val(),
+            department_candidate1: $('#department_candidate1').val(),
             name_candidate1: $('#name_candidate1').val(),
             id_candidate1: $('#id_candidate1').val(),
+            department_candidate2: $('#department_candidate2').val(),
             name_candidate2: $('#name_candidate2').val(),
             id_candidate2: $('#id_candidate2').val(),
             gongyak: $('#gongyak').val()
@@ -39,7 +40,7 @@ var main = {
     },
     update : function () {
         var data = {
-            department: $('#department').val(),
+            department_candidate1: $('#department_candidate1').val(),
             name_candidate1: $('#name_candidate1').val(),
             name_candidate2: $('#name_candidate2').val(),
             gongyak: $('#gongyak').val()
